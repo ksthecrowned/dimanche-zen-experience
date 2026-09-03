@@ -33,7 +33,7 @@ function EventDetailPage() {
           className="absolute inset-0 h-full w-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/60 to-ink/25" />
-        <div className="shell relative z-10 pb-14 md:pb-20">
+        <div className="shell relative z-10">
           <p className="eyebrow">{event.edition}</p>
           <h1 className="display mt-5 text-[14vw] leading-[0.85] sm:text-6xl lg:text-8xl">
             Dimanche Zen
