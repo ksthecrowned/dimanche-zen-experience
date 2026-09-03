@@ -158,16 +158,12 @@ export const galleryItems: GalleryItem[] = [
   { id: "g1", image: heroImg, edition: "ZEN #11", alt: "Foule dansant au coucher du soleil", span: "wide" },
   { id: "g2", image: musicImg, edition: "ZEN #11", alt: "DJ en plein set", span: "tall" },
   { id: "g3", image: foodImg, edition: "ZEN #10", alt: "Food corner du ZEN", span: "square" },
-  { id: "g4", image: culture(), edition: "ZEN #10", alt: "Danseuse sur le dancefloor", span: "tall" },
+  { id: "g4", image: cultureImg, edition: "ZEN #10", alt: "Danseuse sur le dancefloor", span: "tall" },
   { id: "g5", image: communityImg, edition: "ZEN #09", alt: "Amis réunis au ZEN", span: "wide" },
   { id: "g6", image: playImg, edition: "ZEN #09", alt: "Jeux et challenges", span: "square" },
   { id: "g7", image: finalCtaImg, edition: "ZEN #11", alt: "Public le soir", span: "wide" },
   { id: "g8", image: nextEditionImg, edition: "ZEN #10", alt: "Lieu du ZEN avant ouverture", span: "square" },
 ];
-
-function culture() {
-  return cultureImg;
-}
 
 export const galleryFilters = ["ALL", "ZEN #11", "ZEN #10", "ZEN #09"];
 
