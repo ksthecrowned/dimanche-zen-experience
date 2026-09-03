@@ -66,7 +66,7 @@ function Hero() {
         className="absolute inset-0 h-full w-full object-cover"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/55 to-ink/25" />
-      <div className="shell relative z-10 pb-14 md:pb-20">
+      <div className="shell relative z-10 pb-14 md:pb-0">
         <p className="eyebrow">{brand.city}</p>
         <h1 className="display mt-5 text-[19vw] leading-[0.82] sm:text-[15vw] lg:text-[11rem]">
           Dimanche

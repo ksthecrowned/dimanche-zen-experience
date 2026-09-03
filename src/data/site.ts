@@ -120,7 +120,11 @@ export const events: ZenEvent[] = [
   },
 ];
 
-export const nextEvent = events[0];
+const [firstEvent] = events;
+if (!firstEvent) {
+  throw new Error("Dimanche ZEN requires at least one event in data/site.ts");
+}
+export const nextEvent: ZenEvent = firstEvent;
 
 export type Experience = {
   key: string;
